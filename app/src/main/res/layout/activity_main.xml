@@ -20,12 +20,23 @@
 
 
         <TextView
-            android:id="@+id/tv"
+            android:id="@+id/tvcamera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Camera"
             android:visibility="gone"
             app:layout_constraintTop_toBottomOf="@id/bt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+        <TextView
+            android:id="@+id/tvread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/tvcamera"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
